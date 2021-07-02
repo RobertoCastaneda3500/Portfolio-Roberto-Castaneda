@@ -90,7 +90,7 @@ a {
   margin-right: 32px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 425px) {
   .nav {
     justify-content: center;
   }
@@ -243,13 +243,3 @@ footer > p {
 }
 
 /*footer ends here*/
-
-@media (max-width: 425px) {
-  .nav {
-    width: 75%;
-  }
-  html,
-  body {
-    max-width: 86.5%;
-  }
-} ;
