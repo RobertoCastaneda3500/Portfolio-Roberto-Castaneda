@@ -133,7 +133,11 @@ a {
   border: solid;
   border-color: black;
 }
-
+@media (max-width: 425px) {
+  .about {
+    height: 700px;
+  }
+}
 /* about section ends here */
 /*project section starts here */
 
