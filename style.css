@@ -177,13 +177,13 @@ a {
 
 .project {
   background: lightgray;
-  box-shadow: 8px 8px 16px lightgray;
+  box-shadow: 15px 8px 25px 5px lightgray;
   border-radius: 2px;
 }
 
 .project-image {
   height: 300px;
-  width: 366px;
+  width: 365px;
   object-fit: cover;
 }
 
