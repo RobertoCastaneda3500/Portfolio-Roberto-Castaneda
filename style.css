@@ -67,6 +67,7 @@ p {
 img {
   display: block;
   width: 100%;
+  border-radius: 10px 15px;
 }
 ul {
   list-style: none;
@@ -177,8 +178,8 @@ a {
 
 .project {
   background: lightgray;
-  box-shadow: 15px 8px 25px 5px lightgray;
-  border-radius: 2px;
+  box-shadow: 15px 8px 25px lightgray;
+  border-radius: 10px;
 }
 
 .project-image {
