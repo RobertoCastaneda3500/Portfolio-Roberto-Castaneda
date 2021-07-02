@@ -243,3 +243,13 @@ footer > p {
 }
 
 /*footer ends here*/
+
+@media {
+  .nav {
+    width: 75%;
+  }
+  html,
+  body {
+    max-width: 86.5%;
+  }
+} ;
