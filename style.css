@@ -175,13 +175,14 @@ a {
   margin-bottom: 96px;
 }
 
-@media (max-width: 30.625em) {
+@media (max-width: 425px) {
   .projects-section {
     padding: 96px 6px;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
+    margin: 15px;
   }
 }
 
@@ -190,7 +191,11 @@ a {
   box-shadow: 15px 8px 25px lightgray;
   border-radius: 10px;
 }
-
+@media (max-width: 425px) {
+  .project {
+    box-shadow: 10px 8px 15px lightgray;
+  }
+}
 .project-image {
   height: 300px;
   width: 365px;
@@ -221,9 +226,21 @@ a {
 .contact-links {
   padding: 20px;
 }
+@media (max-width: 425px) {
+  .contact-links {
+    width: 350px;
+    padding: 33px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .number {
+    padding-left: 20px;
+  }
+}
 
 .contact-links a {
-  padding-right: 25px;
+  padding-right: 50px;
 }
 
 /*contact info section ends here */
