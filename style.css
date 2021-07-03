@@ -64,6 +64,11 @@ p {
   text-align: center;
   flex-wrap: wrap;
 }
+@media (max-width: 425px) {
+  p {
+    max-width: 410px;
+  }
+}
 img {
   display: block;
   width: 100%;
