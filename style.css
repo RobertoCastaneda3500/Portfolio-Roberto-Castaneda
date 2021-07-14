@@ -190,6 +190,10 @@ a {
   background: lightgray;
   box-shadow: 15px 8px 25px lightgray;
   border-radius: 10px;
+  transition: 2s ease-in-out;
+}
+.project:hover {
+  transform: rotate(360deg);
 }
 @media (max-width: 425px) {
   .project {
