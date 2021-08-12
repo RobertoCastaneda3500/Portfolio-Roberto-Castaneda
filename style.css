@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth;
   font-size: 90%;
 }
+#update {
+  text-align: center;
+  height: 100px;
+}
 /*resize the font for different devices*/
 @media (max-width: 1200px) {
   html {
